@@ -1,0 +1,5 @@
+#!/bin/sh
+cd ../packer
+packer build debian-stretch-image.json
+
+#bash setup
